@@ -1,0 +1,180 @@
+*{
+  padding:0;
+margin:0;
+font-family: 'Roboto', sans-serif;
+}
+
+.header{
+background-color:#1F2937;
+padding: 10rem;
+color:white;
+
+}
+nav{
+
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+ padding: 20px;
+ position: relative;
+}
+nav ul{
+  position: absolute;
+  top:-8.5rem;
+  right:5rem;
+
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+color: #E5E7EB;
+}
+.logo{
+    position: absolute;
+left:0;
+top:-9rem;
+  font-size: 24px;
+  font-weight:bold;
+}
+.hero-main{
+  font-size:48px;
+  font-weight:800;
+}
+.main-info-container{
+display:flex;
+align-items: center;
+justify-content: space-evenly;
+position: relative;
+}
+.main-info{
+padding:20px;
+position: absolute;
+left:-1.15rem;
+}
+.main-info p{
+  line-height: 1.5rem;
+    font-size: 18px;
+  color: #E5E7EB;
+  margin-top: 1rem;
+}
+.placeholder-image{
+background-color: #e5e7eb8e;
+width:650px;
+height:280px;
+position: absolute;
+top:0;
+right:-150px;
+}
+.placeholder-container{
+  position: relative;
+width:650px;
+height:280px;
+}
+.placeholder-image p{
+position: absolute;
+top:140px;
+left:210px;
+}
+.sign-up-btn{
+  color:white;
+  background-color: #3882F6;
+  border:none;
+  padding: 0.55rem 1.9rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight:800;
+  margin-top:1rem;
+}
+.random-info{
+  padding: 11rem;
+  position: relative;
+}
+.info-header{
+  font-size: 36px;
+  font-weight: 800;
+  color:#1F2937;
+  position: absolute;
+  top:3.5rem;
+  left:44rem;
+}
+.container{
+display:flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.border{
+  width:180px;
+  height:180px;
+  border:5px solid #3882F6;
+  border-radius: 8px;
+  position: relative;
+}
+.border div{
+position: absolute;/*i didn't know how to make a text under a div so that it could be wrapped as one box,so i had to improvise*/
+bottom: -4.4rem;
+text-align: center;
+}
+.quote{
+background-color: #E5E7EB;
+padding: 11rem;
+}
+.quote-wrapper{
+width:850px;
+margin: auto;
+position: relative;
+}
+.quote div p{
+font-size: 36px;
+color:#1f2937dc;
+font-style: italic;
+}
+#thor{
+position: absolute;
+right:0;
+color:#161e28;
+font-weight: 800;
+font-size: 24px;
+}
+.cta{
+padding:11rem;
+}
+.cta-container{
+  background-color: #3882F6;
+  color:white;
+  padding:5rem 6rem;
+  border-radius: 10px;
+}
+.flex-container{
+  display:flex;
+  justify-content: space-around;
+}
+.flex-container div p{
+  font-size: 20px;
+}
+#cta-btn{
+  background-color:#3882F6;
+  color:white;
+  border:3px solid white;
+  border-radius: 10px;
+width:9rem;
+height: 3rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+#cta-header{
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+footer{
+  background-color: #1F2937;
+ padding: 3.5rem;
+ 
+}
+footer p{
+  color:white;
+  margin: auto;
+  width:300px;
+  font-size: 18px;
+}
